@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<fx:root prefHeight="256.0" prefWidth="432.0" styleClass="background" stylesheets="@DarkTheme.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonEditDialogController">
+<AnchorPane prefHeight="256.0" prefWidth="432.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonEditDialogController">
    <children>
       <GridPane AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
          <columnConstraints>
@@ -41,4 +41,4 @@
       <Button defaultButton="true" layoutX="220.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="30.0" prefWidth="84.0" text="OK" />
       <Button layoutX="321.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="30.0" prefWidth="97.0" text="Cancel" />
    </children>
-</fx:root>
+</AnchorPane>

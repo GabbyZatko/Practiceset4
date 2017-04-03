@@ -143,6 +143,8 @@ public class PersonOverviewController {
 
 	public void setMainApp(MainApp mainApp2) {
 		// TODO Auto-generated method stub
+		this.mainApp = mainApp2;
+		personTable.setItems(mainApp.getPersonData());
 		
 	}
 }
